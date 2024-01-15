@@ -23,5 +23,31 @@ public class Animales {
         public Animales(){
             
         }
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setEspecie(String especie) {
+        this.especie = especie;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
     
+        
+        
 }
