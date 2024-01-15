@@ -23,7 +23,6 @@ public class Animales {
         public Animales(){
             
         }
-
     public String getEspecie() {
         return especie;
     }
