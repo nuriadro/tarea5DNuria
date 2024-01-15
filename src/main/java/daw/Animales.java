@@ -47,6 +47,18 @@ public class Animales {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Animales{");
+        sb.append("especie=").append(especie);
+        sb.append(", peso=").append(peso);
+        sb.append(", nombre=").append(nombre);
+        sb.append('}');
+        return sb.toString();
+    }
+
     
         
         
