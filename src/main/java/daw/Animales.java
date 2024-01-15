@@ -19,5 +19,9 @@ public class Animales {
             this.nombre=nombre;
             this.peso=peso;
         }
+        
+        public Animales(){
+            
+        }
     
 }
